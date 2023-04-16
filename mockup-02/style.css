@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(54, 59, 117);
+    min-height: 100dvh;
+}
+header{
+    background-color: rgb(33, 37, 71);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+}
+header h1{
+    font-size: 1.2em;
+}
+div{
+    width: 90dvw;
+    height: 95dvw;
+    border-radius: 20px;
+    margin: 50px auto;
+    box-shadow: 0px 20px 100px 10px rgba(0, 0, 0, 0.795);
+    padding: 10PX;
+}
+div#seroum{
+    background-image: url(fundodiv1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div section{
+    margin-top: 20px;
+    display: block;
+    width: 55dvw;
+    height: 85dvw;
+    color: rgb(165, 165, 165);
+    padding: 5px;
+}
+section h1{
+    padding-top: 20px;
+    font-size: 1.5em;
+}
+section p{
+    padding-top: 20px;
+    font-size: .8em;
+    text-align: justify;
+}
