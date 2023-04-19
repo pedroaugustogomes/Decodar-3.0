@@ -1,10 +1,12 @@
+@charset "UTF-8";
+
 *{
     margin: 0px;
     padding: 0px;
 }
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(54, 59, 117);
+    background-color: rgb(27, 30, 61);
     min-height: 100dvh;
 }
 header{
@@ -19,33 +21,64 @@ header{
 header h1{
     font-size: 1.2em;
 }
-div{
-    width: 90dvw;
-    height: 95dvw;
-    border-radius: 20px;
-    margin: 50px auto;
-    box-shadow: 0px 20px 100px 10px rgba(0, 0, 0, 0.795);
-    padding: 10PX;
-}
-div#seroum{
-    background-image: url(fundodiv1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-div section{
-    margin-top: 20px;
-    display: block;
-    width: 55dvw;
-    height: 85dvw;
+section#zeroum section#textoum{
     color: rgb(165, 165, 165);
-    padding: 5px;
+    width: 85dvw;
+    margin: 80px 30px 0px;
 }
 section h1{
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.658);
     padding-top: 20px;
-    font-size: 1.5em;
+    font-size: 2em;
+    font-weight: 700;
 }
 section p{
     padding-top: 20px;
-    font-size: .8em;
-    text-align: justify;
+    font-size: 1em;
+}
+div#botao{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(165, 165, 165);
+    margin: 30px auto 30px 50px;
+    border-radius: 20px;
+}
+div#botao p{
+    display: block;
+    color: rgb(27, 30, 61);
+    padding: 0px;
+    font-weight: bold;
+}
+div#imagem{
+    background-image: url(fogete-sem-fundo.png);
+    background-size: contain;
+    background-position: center center;
+    width: 100dvw;
+    height: 200px;
+    margin: 100px 0px;
+}
+div#processos{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: rgb(165, 165, 165);
+    margin: 0px auto 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+section#zerodois h1{
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.658);
+    padding-top: 20px;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(165, 165, 165);
+}
+section#zerodois p{
+    display: block;
+    width: 300px;
 }
