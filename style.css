@@ -37,7 +37,7 @@ section p{
     font-size: 1em;
 }
 div#botao{
-    width: 200px;
+    width: 100px;
     height: 30px;
     display: flex;
     align-items: center;
