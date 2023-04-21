@@ -90,6 +90,10 @@ div#imagemastronauta a{
     margin: 5px;
     border-radius: 5px;
 }
+div#imagemastronauta a:active{
+    background-color: rgb(54, 27, 90);
+    transition-duration: 3s;
+}
 div#imagemastronauta a img{
     display: inline-block;
     width: 20px;
