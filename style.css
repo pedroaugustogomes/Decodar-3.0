@@ -40,13 +40,13 @@ header h1{
     margin-top: 3px;
 }
 section#zeroum{
-    height: 70dvh;
+    height: 60dvh;
 }
 section#zeroum section#textoum{
     color: rgb(165, 165, 165);
     width: 85dvw;
     margin: 0px 30px 0px;
-    padding-top: 120px;
+    padding-top: 10dvh;
 }
 section h1{
     text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.658);
@@ -66,17 +66,18 @@ section p{
 }
 div#imagemastronauta{
     background-image: url(Frame\ 4.png);
-    background-color: rgb(13, 0, 129);
-    background-size: cover;
+    background-color: rgb(203, 211, 214);
+    background-size: contain;
     background-repeat: no-repeat;
     width: 99.4dvw;
-    height: 330px;
+    height: 80dvw;
     margin: 60px 0px;
+    display: flex;
+    align-items: center;
 }
 div#imagemastronauta h3{
     display: block;
     padding-left: 47dvw;
-    padding-top: 100px;
     text-align: center;
 }
 div#imagemastronauta a{
@@ -87,6 +88,10 @@ div#imagemastronauta a{
     display: inline-block;
     margin: 5px;
     border-radius: 5px;
+}
+div#imagemastronauta a img{
+    display: inline-block;
+    width: 20px;
 }
 section#zerodois h1{
     text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.658);
@@ -113,7 +118,7 @@ div.processos p{
 }
 div.imagemprocessos{
     width: 90dvw;
-    height: 200px;
+    height: 60dvw;
     background-color: black;
     margin: 20px auto 20px;
     border-radius: 10px;
