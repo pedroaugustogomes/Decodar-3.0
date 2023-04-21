@@ -4,70 +4,89 @@
     margin: 0px;
     padding: 0px;
 }
+body::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+}
+/*
+body::-webkit-scrollbar-track {
+    background: orange;         color of the tracking area 
+}*/
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(59, 59, 59);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    /*border: 3px solid orange;   creates padding around scroll thumb */
+}
+@font-face {
+    font-family: 'roboto';
+    src: url(Roboto/Roboto-Regular.ttf);
+}
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(27, 30, 61);
+    font-family: 'roboto';
+    background-color: rgb(11, 13, 26);
     min-height: 100dvh;
 }
 header{
-    background-color: rgb(33, 37, 71);
+    background-color: rgb(11, 13, 26);
     color: white;
     padding: 10px;
     text-align: center;
-    margin: 10px;
-    border-radius: 10px;
     height: 30px;
+    position: fixed;
+    top: 0px;
+    width: 99.4dvw;
 }
 header h1{
     font-size: 1.2em;
+    margin-top: 3px;
+}
+section#zeroum{
+    height: 70dvh;
 }
 section#zeroum section#textoum{
     color: rgb(165, 165, 165);
     width: 85dvw;
-    margin: 80px 30px 0px;
+    margin: 0px 30px 0px;
+    padding-top: 120px;
 }
 section h1{
     text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.658);
     padding-top: 20px;
     font-size: 2em;
     font-weight: 700;
+    color: rgb(247, 247, 247);
+}
+section#zeroum h1 img{
+    width: 250px;
+    display: inline-block;
+    padding-top: 5px;
 }
 section p{
     padding-top: 20px;
     font-size: 1em;
 }
-div#botao{
-    width: 100px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(165, 165, 165);
-    margin: 30px auto 30px 50px;
-    border-radius: 20px;
+div#imagemastronauta{
+    background-image: url(Frame\ 4.png);
+    background-color: rgb(13, 0, 129);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 99.4dvw;
+    height: 330px;
+    margin: 60px 0px;
 }
-div#botao p{
+div#imagemastronauta h3{
     display: block;
-    color: rgb(27, 30, 61);
-    padding: 0px;
-    font-weight: bold;
+    padding-left: 47dvw;
+    padding-top: 100px;
+    text-align: center;
 }
-div#imagem{
-    background-image: url(fogete-sem-fundo.png);
-    background-size: contain;
-    background-position: center center;
-    width: 100dvw;
-    height: 200px;
-    margin: 100px 0px;
-}
-div#processos{
-    width: 100px;
-    height: 100px;
-    border-radius: 20px;
-    background-color: rgb(165, 165, 165);
-    margin: 0px auto 30px;
-    display: flex;
-    justify-content: space-evenly;
+div#imagemastronauta a{
+    background-color: rgb(11, 13, 26);
+    color: rgb(203, 211, 214);
+    text-decoration: none;
+    padding: 3px 6px;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 5px;
 }
 section#zerodois h1{
     text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.658);
@@ -76,9 +95,52 @@ section#zerodois h1{
     font-weight: 700;
     text-align: center;
     margin-bottom: 30px;
-    color: rgb(165, 165, 165);
+    color: rgb(252, 252, 252);
 }
-section#zerodois p{
+div.processos{
+    width: 99.4dvw;
+    min-height: 100px;
+    margin: 0px auto 30px auto;
+}
+div.processos h2{
+    color: rgb(247, 247, 247);
+    padding: 15px;
+}
+div.processos p{
     display: block;
-    width: 300px;
+    color: rgb(165, 165, 165);
+    padding: 15px;
+}
+div.imagemprocessos{
+    width: 90dvw;
+    height: 200px;
+    background-color: black;
+    margin: 20px auto 20px;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+div#imgpum{
+    background-image: url(idealizaçao.jpg);
+}
+div#imgpdois{
+    background-image: url(frontend.jpg);
+}
+div#imgptres{
+    background-image: url(back-end.jpg);
+}
+div#imgpquatro{
+    background-image: url(publicando.jpg);
+}
+div#imgpcinco{
+    background-image: url(impulsionamento.jpg);
+}
+footer{
+    text-align: center;
+    color: rgb(161, 161, 161);
+}
+footer p{
+    padding: 10px;
+    font-weight: 600;
 }
