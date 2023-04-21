@@ -69,9 +69,10 @@ div#imagemastronauta{
     background-color: rgb(203, 211, 214);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: left center;
     width: 99.4dvw;
-    height: 80dvw;
-    margin: 60px 0px;
+    height: 100dvw;
+    margin: 60px 0px 100px;
     display: flex;
     align-items: center;
 }
@@ -100,16 +101,24 @@ section#zerodois h1{
     font-weight: 700;
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 50px;
     color: rgb(252, 252, 252);
 }
 div.processos{
     width: 99.4dvw;
     min-height: 100px;
-    margin: 0px auto 30px auto;
+    margin: 0px auto 60px auto;
+}
+div#traço{
+    width: 35dvw;
+    height: 3px;
+    border-radius: 1.5px;
+    background-color: rgb(165, 165, 165);
+    margin: 50px auto 50px;
 }
 div.processos h2{
     color: rgb(247, 247, 247);
-    padding: 15px;
+    padding-left: 15px;
 }
 div.processos p{
     display: block;
