@@ -1,5 +1,23 @@
 @charset "UTF-8";
 
+/* Typical Device Breakpoints
+------------------------------
+Pequenas telas: até 600px
+Celular: até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Telas grandes: acima de 1200px
+
+Mobile: 360 x 640
+Mobile: 375 x 667
+Mobile: 360 x 720
+iPhone X: 375 x 812
+Pixel 2: 411 x 731
+Tablet: 768 x 1024
+Laptop: 1366 x 768
+High-res laptop or desktop: 1920 x 1080
+*/
+
 *{
     margin: 0px;
     padding: 0px;
@@ -155,6 +173,17 @@ div#imgpquatro{
 }
 div#imgpcinco{
     background-image: url(impulsionamento.jpg);
+}
+div#redes{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+div#redes a{
+    padding: 0px 20px;
+}
+div#redes a img{
+    width: 150%;
 }
 footer{
     text-align: center;
