@@ -17,7 +17,7 @@ Tablet: 768 x 1024
 Laptop: 1366 x 768
 High-res laptop or desktop: 1920 x 1080
 */
-
+@media all{
 *{
     margin: 0px;
     padding: 0px;
@@ -43,19 +43,22 @@ body{
     background-color: rgb(11, 13, 26);
     min-height: 100dvh;
 }
+/*
 header{
     background-color: rgb(11, 13, 26);
     color: white;
     padding: 10px;
     text-align: center;
     height: 30px;
-    position: fixed;
-    top: 0px;
     width: 99.4dvw;
 }
 header h1{
     font-size: 1.2em;
     margin-top: 3px;
+}
+*/
+nav{
+    display: none;
 }
 section#zeroum{
     height: 150dvw;
@@ -85,7 +88,7 @@ section p{
     font-size: 1em;
 }
 div#imagemastronauta{
-    background-image: url(Frame\ 4.png);
+    background-image: url(astronauta.png);
     background-color: rgb(203, 211, 214);
     background-size: contain;
     background-repeat: no-repeat;
@@ -135,7 +138,7 @@ div.processos{
 }
 div#traço{
     width: 35dvw;
-    height: 3px;
+    height: 1px;
     border-radius: 1.5px;
     background-color: rgb(165, 165, 165);
     margin: 50px auto 50px;
@@ -183,7 +186,7 @@ div#redes a{
     padding: 0px 20px;
 }
 div#redes a img{
-    width: 150%;
+    width: 90%;
 }
 footer{
     text-align: center;
@@ -193,4 +196,5 @@ footer p{
     padding: 10px;
     font-weight: 600;
     margin-bottom: 40px;
+}
 }
