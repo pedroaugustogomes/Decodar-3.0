@@ -121,6 +121,9 @@ div#imagemastronauta a img{
     display: inline-block;
     width: 20px;
 }
+section.computador{
+    display: none;
+}
 section#zerodois h1{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -152,30 +155,16 @@ div.processos p{
     color: rgb(165, 165, 165);
     padding: 15px;
 }
-div.imagemprocessos{
+img.imagemprocessos{
     width: 90dvw;
     height: 60dvw;
     background-color: black;
+    display: block;
     margin: 20px auto 20px;
     border-radius: 10px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-}
-div#imgpum{
-    background-image: url(idealizaçao.jpg);
-}
-div#imgpdois{
-    background-image: url(frontend.jpg);
-}
-div#imgptres{
-    background-image: url(back-end.jpg);
-}
-div#imgpquatro{
-    background-image: url(publicando.jpg);
-}
-div#imgpcinco{
-    background-image: url(impulsionamento.jpg);
 }
 div#redes{
     display: flex;

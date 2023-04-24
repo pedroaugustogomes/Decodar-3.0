@@ -52,4 +52,32 @@ div#imagemastronauta h3 a{
     padding-right: 15px;
     border-radius: 20px;
 }
+section.celular{
+    display: none;
+}
+section.computador{
+    display: block;
+}
+div.processos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px;
+}
+div.processos div.textoprocessos{
+    display: block;
+    max-width: 40dvw;
+}
+div.processos div.esquerda{
+    text-align: end;
+}
+div.processos img{
+    width: 40dvw;
+    height: auto;
+    margin: 0px;
+    margin-right: 0px;
+}
+div#traço{
+    margin: 150px auto 150px;
+}
 }
